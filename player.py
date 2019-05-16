@@ -100,3 +100,4 @@ for heats in range(NUM_WEEKS):
     for fighter in fighters:
         fighter.countdown -= 1
     runHeat(fighters)
+    fighters = sorted()
